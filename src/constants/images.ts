@@ -6,4 +6,9 @@ export const images = {
   bundesliga: "../../src/assets/laligas/bundseliga.png",
   bpl: "../../src/assets/laligas/bpl.png",
   copa: "../../src/assets/laligas/copa.svg",
+  leftWeakFoot: "../../src/assets/icons/feetpics/left_inactive.png ",
+  leftStrongFoot: "../../src/assets/icons/feetpics/left_active.png ",
+  rightWeakFoot: "../../src/assets/icons/feetpics/right_inactive.png ",
+  rightStrongFoot: "../../src/assets/icons/feetpics/right_active.jpg ",
+  ronaldo: "../../src/assets/players/leagues/realmadrid/ronaldo.jpg",
 };

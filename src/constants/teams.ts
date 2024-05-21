@@ -12,35 +12,12 @@ export const teams: Teams[] = [
     team: "Barcelona",
   },
   {
-    logo: images.barcelona,
-    team: "Barcelona",
+    logo: images.realmadrid,
+    team: "Real Madrid",
   },
   {
-    logo: images.barcelona,
-    team: "Barcelona",
+    logo: images.sevilla,
+    team: "Sevilla",
   },
-  {
-    logo: images.barcelona,
-    team: "Barcelona",
-  },
-  {
-    logo: images.barcelona,
-    team: "Barcelona",
-  },
-  {
-    logo: images.barcelona,
-    team: "Barcelona",
-  },
-  {
-    logo: images.barcelona,
-    team: "Barcelona",
-  },
-  {
-    logo: images.barcelona,
-    team: "Barcelona",
-  },
-  {
-    logo: images.barcelona,
-    team: "Barcelona",
-  },
+  
 ];

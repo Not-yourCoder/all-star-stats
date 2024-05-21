@@ -8,7 +8,7 @@ const SelectLeague = (props: Props) => {
     return (
         <div className='flex items-center gap-2'>
             <img src={images.bpl} alt="" className='w-[4rem] rounded-full' />
-            <FaAngleDown size={"28px"} className=" text-white" />
+            <FaAngleDown size={"24px"} className=" text-white" />
         </div>
     )
 }

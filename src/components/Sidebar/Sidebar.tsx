@@ -5,7 +5,7 @@ type Props = {}
 
 const Sidebar = (props: Props) => {
     return (
-        <div className="flex flex-col px-2 pt-4 gap-[4rem] max-h-screen">
+        <div className="flex flex-col px-4 pt-4 gap-[4rem] max-h-screen">
             <SelectLeague />
             <div className='h-full'>
                 {teams.map((item, index) => (

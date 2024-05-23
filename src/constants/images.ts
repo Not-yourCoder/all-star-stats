@@ -11,4 +11,8 @@ export const images = {
   rightWeakFoot: "../../src/assets/icons/feetpics/right_inactive.png ",
   rightStrongFoot: "../../src/assets/icons/feetpics/right_active.jpg ",
   ronaldo: "../../src/assets/players/leagues/realmadrid/ronaldo.jpg",
+  uefatrophy: "../../src/assets/trophies/uefa.jpg",
+  laligaTrophy: "../../src/assets/trophies/laliga.png",
+  copaTrophy: "../../src/assets/trophies/copadel.png",
+  cronaldo: "../../src/assets/players/players/ron.jpg",
 };

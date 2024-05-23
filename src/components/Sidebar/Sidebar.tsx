@@ -9,7 +9,7 @@ const Sidebar = (props: Props) => {
             <SelectLeague />
             <div className='h-full'>
                 {teams.map((item, index) => (
-                    <div className='mb-[2.8rem]'>
+                    <div className='mb-[2.8rem]' key={index}>
                         <img src={item.logo} alt="" className="w-[6rem] " />
                         <p className='text-center text-teal-400 font-semibold text-lg'>{item.team}</p>
                     </div>

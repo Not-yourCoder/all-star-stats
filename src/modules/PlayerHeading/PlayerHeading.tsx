@@ -1,9 +1,7 @@
-import React from 'react'
 import { images } from '../../constants/images'
 
-type Props = {}
 
-const PlayerHeading = (props: Props) => {
+const PlayerHeading = () => {
     return (
         <div className='text-white'>
             <div className='rounded-md flex gap-4 my-6 p-4 items-center'>

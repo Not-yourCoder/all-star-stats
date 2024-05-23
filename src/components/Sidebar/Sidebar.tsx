@@ -1,9 +1,8 @@
 import { teams } from "../../constants/teams"
 import SelectLeague from "../../modules/SelectLeague"
 
-type Props = {}
 
-const Sidebar = (props: Props) => {
+const Sidebar = () => {
     return (
         <div className="flex flex-col px-4 pt-4 gap-[4rem] max-h-screen">
             <SelectLeague />

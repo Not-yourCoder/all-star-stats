@@ -1,8 +1,6 @@
-import React from 'react'
 
-type Props = {}
 
-const PlayerSeason = (props: Props) => {
+const PlayerSeason = () => {
     return (
         <div className=''>
             <div className='p-4'>

@@ -1,12 +1,10 @@
-import React from 'react'
 import { images } from '../../constants/images'
 import { navBar } from '../../constants/header'
 import { CiSearch } from "react-icons/ci";
 import { VscAccount } from "react-icons/vsc";
 
-type Props = {}
 
-const Header = (props: Props) => {
+const Header = () => {
     return (
         <div className='h-24'>
             <div className='flex gap-10 items-center justify-between'>

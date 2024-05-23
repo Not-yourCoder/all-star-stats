@@ -5,9 +5,8 @@ import PlayerStats from '../../modules/PlayerStats'
 import SelectPlayer from '../../modules/SelectPlayer'
 import { SpiderChart } from '../../modules/SpiderChart'
 
-type Props = {}
 
-const Content = (props: Props) => {
+const Content = () => {
   return (
     <div>
       <SelectPlayer />

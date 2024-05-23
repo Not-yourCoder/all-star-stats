@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Radar } from 'react-chartjs-2';
 import { data } from '../utils/dataset';
 
@@ -14,7 +14,7 @@ import {
     RadialLinearScale
 } from 'chart.js';
 
-type Props = {}
+
 
 ChartJS.register(
     CategoryScale,
@@ -27,24 +27,22 @@ ChartJS.register(
     RadialLinearScale
 );
 
-export const SpiderChart = (props: Props) => {
-    const options = {
+export const SpiderChart = () => {
+    const options: any = {
         responsive: true,
         plugins: {
             legend: {
                 display: false,
-                position: 'top',
             },
             tooltip: {
                 callbacks: {
-                    label: function (context: any) {
-                        let label = context.dataset.label || '';
+                    label: function (tooltipItem: { dataset: { label: string; }; raw: any; }) {
+                        let label = tooltipItem.dataset.label || '';
                         if (label) {
-                            label += ' : ';
+                            label += ': ';
                         }
-                        label += context.raw;
-                        const gap = " "
-                        return label + gap;
+                        label += tooltipItem.raw;
+                        return label;
                     }
                 },
                 backgroundColor: 'rgba(0,0,0,0.8)',

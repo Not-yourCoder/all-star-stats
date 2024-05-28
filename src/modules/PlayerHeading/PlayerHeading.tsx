@@ -5,12 +5,12 @@ const PlayerHeading = () => {
     return (
         <div className='text-white'>
             <div className='rounded-md flex gap-4 my-6 p-4 items-center'>
-                <div className=''>
-                    <div className='p-2 w-20 text-center rounded-lg mb-2 text-2xl font-semibold bg-gray-500 text-white'>
+                <div className=' flex flex-col gap-4'>
+                    <div className='p-2 w-20 text-center rounded-lg mb-2 text-xl font-bold bg-[#23232c] text-white'>
                         LWF
                     </div>
                     <div className='w-20'>
-                        <img src={images.rightStrongFoot} alt="" className=' w-[100px]' />
+                        <img src={images.rightFoot} alt="" className=' w-[100px]' />
                     </div>
                 </div>
                 <div className='text-8xl font-semibold'>

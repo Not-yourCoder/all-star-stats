@@ -1,7 +1,7 @@
 import Sidebar from '../components/Sidebar/Sidebar';
 import Header from '../components/Header/Header';
-import Content from '../components/Content/Content';
 import { color } from '../constants/colors';
+import { Outlet } from 'react-router-dom';
 
 
 const Layout = () => {
@@ -14,8 +14,7 @@ const Layout = () => {
         <Header />
       </div>
       <div className="overflow-y-auto p-10" style={{ background: color.primary_bg }}>
-        <Content />
-
+        <Outlet />
       </div>
     </div>
   );

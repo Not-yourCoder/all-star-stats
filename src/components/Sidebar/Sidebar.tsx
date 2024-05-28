@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { teams } from "../../constants/teams"
 import SelectLeague from "../../modules/SelectLeague"
 
@@ -9,8 +10,11 @@ const Sidebar = () => {
             <div className='h-full'>
                 {teams.map((item, index) => (
                     <div className='mb-[2.8rem]' key={index}>
-                        <img src={item.logo} alt="" className="w-[6rem] " />
-                        <p className='text-center text-teal-400 font-semibold text-lg'>{item.team}</p>
+                        <Link to={item.path} >
+                            <img src={item.logo} alt="" className="w-[6rem] " />
+                            <p className='text-center text-teal-400 font-semibold text-lg'>{item.team}</p>
+                        </Link>
+
                     </div>
                 ))}
             </div>

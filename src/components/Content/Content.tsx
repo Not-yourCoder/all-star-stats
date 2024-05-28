@@ -17,7 +17,6 @@ const Content = () => {
           <PlayerSeason />
           <div className='w-[350px] mx-auto'>
             <SpiderChart />
-
           </div>
         </div>
         <PlayerImage />

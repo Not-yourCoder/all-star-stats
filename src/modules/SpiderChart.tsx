@@ -11,7 +11,8 @@ import {
     Title,
     Tooltip,
     Legend,
-    RadialLinearScale
+    RadialLinearScale,
+    Filler
 } from 'chart.js';
 
 
@@ -24,7 +25,8 @@ ChartJS.register(
     Title,
     Tooltip,
     Legend,
-    RadialLinearScale
+    RadialLinearScale,
+    Filler
 );
 
 export const SpiderChart = () => {

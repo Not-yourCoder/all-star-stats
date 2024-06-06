@@ -1,4 +1,5 @@
 export const navBar = [
+  { path: "/home", label: "Home" },
   { path: "/overview", label: "Overview" },
   { path: "/schedule", label: "Schedule" },
 

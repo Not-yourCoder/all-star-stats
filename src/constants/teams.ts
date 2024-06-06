@@ -7,21 +7,34 @@ export interface Teams {
 }
 
 export const teams: Teams[] = [
-  
   {
     logo: images.barcelona,
     team: "Barcelona",
-    path: "/barcelona"
+    path: "/barcelona",
   },
   {
     logo: images.realmadrid,
     team: "Real Madrid",
-    path: "/real-madrid"
+    path: "/real-madrid",
   },
   {
     logo: images.sevilla,
     team: "Sevilla",
-    path: "/sevilla"
+    path: "/sevilla",
   },
-  
+  {
+    logo: images.sevilla,
+    team: "Sevilla",
+    path: "/sevilla",
+  },
+  {
+    logo: images.sevilla,
+    team: "Sevilla",
+    path: "/sevilla",
+  },
+  {
+    logo: images.sevilla,
+    team: "Sevilla",
+    path: "/sevilla",
+  },
 ];

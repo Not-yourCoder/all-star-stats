@@ -5,7 +5,7 @@ import { CiHeart } from "react-icons/ci";
 const PlayerImage = () => {
     return (
         <div className='text-white h-[42rem] relative'>
-            <img src={images.cronaldo} alt="" className='w-full h-full' />
+            <img src={images.cronaldo} alt="" className='w-[25rem] scale-[1.3] mx-auto h-full' />
             <div className='absolute top-0 right-10'>
                 <div className='text-white text-3xl flex flex-col gap-3'>
                     <CiShare2 />
